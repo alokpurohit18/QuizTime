@@ -21,4 +21,8 @@ How to install and play the game -
 
 6.Unzip to get the main application folder. 
 
+7.Open Workbench again and double click the new connection to open it. Now from the menu bar on top selct 'Server'. From the dropdown select 'Data Import'.
+
+8.Now select the option 'Import from self-contained file' and in click on the button to the extreme right to browse to the location of the unzipped application folder. 
+
 
