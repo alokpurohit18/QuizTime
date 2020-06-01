@@ -1,4 +1,4 @@
-# KBC-TheGame
+# KBC - The Game
 A graphical quiz game for the Windows platform based on the reality show Kaun Banega Crorepati. 
 
 
