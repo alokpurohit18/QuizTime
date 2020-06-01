@@ -23,6 +23,5 @@ How to install and play the game -
 
 7.Open Workbench again and double click the new connection to open it. Now from the menu bar on top selct 'Server'. From the dropdown select 'Data Import'.
 
-8.Now select the option 'Import from self-contained file' and in click on the button to the extreme right to browse to the location of the unzipped application folder. 
-
+8.Now select the option 'Import from self-contained file' and in click on the button to the extreme right to browse to the location of the unzipped application folder. Open this folder and then open the 'Database Design' folder. Select the file Database.sql and click OK. You can verify that the path selected in the text field is correct the path to the sql file.
 
