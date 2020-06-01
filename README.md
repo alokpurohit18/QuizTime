@@ -11,10 +11,14 @@ How to install and play the game -
 
 2.While insatlling MySQL, set the password for your user 'root' as 'Alok1823!'.
 
-3.Now open MySQL Workbench from the start menu and click on the plus sign to create a new connection. Enter the following details for the   new connection - 
+3.Now open MySQL Workbench from the start menu and click on the plus sign to create a new connection. Enter the following details for the   new connection and click OK to create the connection - 
 
 ![](Images%20and%20Icons/connection.png)
 
-3.Once MySQL installed and configured correctly, go ahead and download this application repository as a zip folder.
+4.Close Workbench now that the new connection is created.
 
-4.Unzip to get the main application folder. 
+5.Now go ahead and download this application repository as a zip folder.
+
+6.Unzip to get the main application folder. 
+
+
