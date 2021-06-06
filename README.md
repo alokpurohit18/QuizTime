@@ -7,7 +7,7 @@ A graphical quiz game for the Windows platform based on the famous reality show.
 
 How to install and play the game - 
 
-1.Install MySQL (datbase software) using the procedure as described in link - https://www.youtube.com/watch?v=GIRcpjg-3Eg .
+1.Install MySQL (database software) using the procedure as described in link - https://www.youtube.com/watch?v=GIRcpjg-3Eg .
 
 2.While insatlling MySQL, set the password for your user 'root' as 'Alok1823!'.
 
