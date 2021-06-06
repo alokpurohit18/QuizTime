@@ -30,3 +30,5 @@ How to install and play the game -
 9.Now click 'start import' at the bottom right of the screen. Once the import is complete, close Workbench.
 
 10.Navigate to the application folder and open the 'GUI' folder in that. Now double click on the .exe file/appication to launch the game. Enjoy!!! 
+
+Note - You must have python installed on your system to run the game.
