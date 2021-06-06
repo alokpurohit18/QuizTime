@@ -9,8 +9,8 @@ import mysql.connector
 from pathlib import Path
 
 mydb = mysql.connector.connect(host='localhost', user='root', passwd='Alok1823!', database='kbc')
-mycursor = mydb.cursor()
-localcursor = mydb.cursor()
+mycursor = mydb.cursor(buffered=True)
+localcursor = mydb.cursor(buffered=True)
 mixer.init()
 path = Path(__file__).parent.parent
 
@@ -28,7 +28,7 @@ accountframe = Frame(screen, bg='#2e004d')
 gameframe = Frame(screen, bg='#2e004d')
 
 panel = Label(screen)
-filename = os.path.join(path, 'Images and icons\kbc.png')
+filename = os.path.join(path, 'Images and icons\kbc1.png')
 iconfile = os.path.join(path, 'Images and icons\login.png')
 icon= Image.open(iconfile)
 
@@ -135,7 +135,7 @@ def startingwindow():
     startframe = Frame(screen, bg='#2e004d')
     startframe.pack()
     startframedestroy = 1
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     iconfile= os.path.join(path, 'Images and icons\login.png')
@@ -174,7 +174,7 @@ def rulewindow1():
     counter = 1
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     heading = Label(panel, bg='#2e004d', fg='white', text='RULES', font='Arial 36 bold underline')
@@ -202,7 +202,7 @@ def rulewindow2():
     ruleframe.pack()
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     waste = Label(panel, bg='#2e004d', fg='white', text='',
@@ -241,7 +241,7 @@ def rulewindow3():
     ruleframe.pack()
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     waste = Label(panel, bg='#2e004d', fg='white', text='',
@@ -310,7 +310,7 @@ def rulewindow4():
     ruleframe.pack()
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     waste = Label(panel, bg='#2e004d', fg='white', text='',
@@ -384,7 +384,7 @@ def developerinfo():
     developerframe.pack()
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     waste = Label(panel, bg='#2e004d', fg='white', text='',
@@ -425,7 +425,7 @@ def loginwindow1():
 
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     waste = Label(panel, bg='#2e004d', fg='white', text='',
@@ -523,7 +523,7 @@ def createaccount():
 
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    file = os.path.join(path, 'Images and icons\kone.jpeg')
+    file = os.path.join(path, 'Images and icons\kbc.png')
     img = Image.open(file)
     img = img.resize((600, 300), Image.ANTIALIAS)
     img = ImageTk.PhotoImage(img)
@@ -581,7 +581,7 @@ def createaccount():
 
                 mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
                 mixer.music.play()
-                file = os.path.join(path, 'Images and icons\kone.jpeg')
+                file = os.path.join(path, 'Images and icons\kbc.png')
                 img = Image.open(file)
                 img = img.resize((600, 300), Image.ANTIALIAS)
                 img = ImageTk.PhotoImage(img)
@@ -697,7 +697,7 @@ def accountwindow():
     gameframedestroy=1
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     name = ['']
@@ -739,7 +739,7 @@ def highscores():
     gameframe.pack()
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     waste = Label(panel, bg='#2e004d', fg='white', text='',
@@ -794,7 +794,7 @@ def startgame2(friend1,friend2,friend3):
         gameframe.pack()
         mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
         mixer.music.play()
-        filename = os.path.join(path, 'Images and icons\kbc.png')
+        filename = os.path.join(path, 'Images and icons\kbc1.png')
         set_background()
         iconfile = os.path.join(path, 'Images and icons\quit.png')
         set_icon()
@@ -1057,7 +1057,7 @@ def validateanswer(answer,qnumber):
     gameframe.pack()
     mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
     mixer.music.play()
-    filename = os.path.join(path, 'Images and icons\kbc.png')
+    filename = os.path.join(path, 'Images and icons\kbc1.png')
     set_background()
 
     waste = Label(panel, bg='#2e004d', fg='white', text='',
@@ -1234,7 +1234,7 @@ def quitgame():
        gameframe.pack()
        mixer.music.load(os.path.join(path, 'Images and icons\play.mp3'))
        mixer.music.play()
-       filename = os.path.join(path, 'Images and icons\kbc.png')
+       filename = os.path.join(path, 'Images and icons\kbc1.png')
        set_background()
 
        waste = Label(panel, bg='#2e004d', fg='white', text='',
