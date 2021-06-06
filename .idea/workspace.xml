@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f384ea-1183-44c5-af34-a781392b3fea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/KBC - The Game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KBC - The Game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Account Screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Account Screen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Audience Poll description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Audience Poll implemented.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Checkpoint 1 cleared.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Checkpoint 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Create New Account 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Create New Account.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Denominations.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Developer Info.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Developer Info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Expert Advice Description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Expert Advice implemented.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Fifty-Fifty description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Fifty-Fifty implemented.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Friend Entry screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/High Scores screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Lifelines.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Lifelines.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Login Screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Main Menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Main Menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Phone A Friend description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Phone A Friend implemented 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Phone A Friend implemented.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Quit Game implemented.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Quit Game.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Rs. 20000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Rs. 5000  cleared.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Rs. 5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App Screenshots/Rules.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Rules.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/sourcecode.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/sourcecode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images and Icons/kbc.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a2YlGHTBn1ExSjGV5UPYQHt36D" />
@@ -179,32 +149,56 @@
       <option name="presentableId" value="Default" />
       <updated>1585935305336</updated>
     </task>
+    <task id="LOCAL-00001" summary="background changed">
+      <created>1622957890030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622957890030</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="background changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="background changed" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1509" height="65" key="GridCell.Tab.0.bottom" timestamp="1622957832123">
+    <state x="356" y="0" key="CommitChangelistDialog2" timestamp="1622957883708">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622957832123" />
-    <state width="1509" height="65" key="GridCell.Tab.0.center" timestamp="1622957832122">
+    <state x="356" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1622957883708" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1622958203070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622957832122" />
-    <state width="1509" height="65" key="GridCell.Tab.0.left" timestamp="1622957832122">
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1622958203070" />
+    <state width="1509" height="65" key="GridCell.Tab.0.bottom" timestamp="1622958206083">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622957832122" />
-    <state width="1509" height="65" key="GridCell.Tab.0.right" timestamp="1622957832122">
+    <state width="1509" height="65" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622958206083" />
+    <state width="1509" height="65" key="GridCell.Tab.0.center" timestamp="1622958206082">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622957832122" />
+    <state width="1509" height="65" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622958206082" />
+    <state width="1509" height="65" key="GridCell.Tab.0.left" timestamp="1622958206082">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1509" height="65" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622958206082" />
+    <state width="1509" height="65" key="GridCell.Tab.0.right" timestamp="1622958206082">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1509" height="65" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622958206082" />
     <state x="161" y="0" key="SettingsEditor" timestamp="1622911122817">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="161" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1622911122817" />
-    <state x="401" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1622950546428">
+    <state x="261" y="100" key="Vcs.Push.Dialog.v2" timestamp="1622957910702">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="401" y="215" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1622950546428" />
+    <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622957910702" />
+    <state x="401" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1622958306173">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="401" y="215" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1622958306173" />
   </component>
 </project>
