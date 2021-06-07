@@ -15,7 +15,7 @@ mixer.init()
 path = Path(__file__).parent.parent
 
 screen = Tk()
-screen.title("Kaun Banega Crorepati - The Game")
+screen.title("KBC - The Quiz Game")
 screen.iconbitmap(os.path.join(path, 'Images and Icons\kbc_logo.ico'))
 screen.geometry('1920x1080+0+0')
 screen.configure(background='#2e004d')
@@ -470,23 +470,23 @@ def loginwindow2():
     flag = 0
     mycursor.reset()
     if username.get() == '' or password.get() == '':
-        messagebox.showinfo("Kaun Banega Crorepati - The Game", "ALL FIELDS ARE REQUIRED.")
+        messagebox.showinfo("KBC - The Quiz Game", "ALL FIELDS ARE REQUIRED.")
     else:
         mycursor.execute("select username,password from player")
         for i in mycursor:
             if i[0] == username.get() and i[1] == password.get():
-                messagebox.showinfo("Kaun Banega Crorepati - The Game", "LOGIN SUCCESSFUL.")
+                messagebox.showinfo("KBC - The Quiz Game", "LOGIN SUCCESSFUL.")
                 flag = 2
                 break
             elif i[0] == username.get() and i[1] != password.get():
-                messagebox.showinfo("Kaun Banega Crorepati - The Game", "INVALID PASSWORD.")
+                messagebox.showinfo("KBC - The Quiz Game", "INVALID PASSWORD.")
                 flag = 1
                 break
             else:
                 continue
 
         if flag == 0:
-            messagebox.showinfo("Kaun Banega Crorepati - The Game", "INVALID USERNAME.")
+            messagebox.showinfo("KBC - The Quiz Game", "INVALID USERNAME.")
         elif flag == 1:
             pass
         else:
@@ -563,7 +563,7 @@ def createaccount():
         localcursor.reset()
         flag = 0
         if user.get() == '' or name.get() == '' or gender.get() == '':
-            messagebox.showinfo("Kaun Banega Crorepati - The Game", "ALL FIELDS ARE REQUIRED.")
+            messagebox.showinfo("KBC - The Quiz Game", "ALL FIELDS ARE REQUIRED.")
         else:
             localcursor.execute("select username from player")
             for i in localcursor:
@@ -571,7 +571,7 @@ def createaccount():
                     flag = 1
                     break
             if flag == 1:
-                messagebox.showinfo("Kaun Banega Crorepat - The Game",
+                messagebox.showinfo("KBC - The Quiz Game",
                                     "USERNAME ALRAEDY EXISTS. PLEASE CHOOSE ANOTHER ONE.")
             else:
                 global accountframe
@@ -643,15 +643,15 @@ def createaccount():
                 break
 
         if email.get() == '' or passwd.get() == '' or localpassword.get() == '':
-            messagebox.showinfo("Kaun Banega Crorepati - The Game", "ALL FIELDS ARE REQUIRED.")
+            messagebox.showinfo("KBC - The Quiz Game", "ALL FIELDS ARE REQUIRED.")
         elif age.get() < 12:
-            messagebox.showinfo("Kaun Banega Crorepati - The Game", "MINIMUM AGE REQUIRED FOR THIS GAME IS 12.")
+            messagebox.showinfo("KBC - The Quiz Game", "MINIMUM AGE REQUIRED FOR THIS GAME IS 12.")
         elif k[0]==1:
-            messagebox.showinfo("Kaun Banega Crorepati - The Game", "THERE IS ALREADY AN ACCOUNT WITH THIS EMAIL ID.")
+            messagebox.showinfo("KBC - The Quiz Game", "THERE IS ALREADY AN ACCOUNT WITH THIS EMAIL ID.")
         elif passwd.get() != localpassword.get():
-            messagebox.showinfo("Kaun Banega Crorepati - The Game", "PLEASE ENTER SAME PASSWORDS.")
+            messagebox.showinfo("KBC - The Quiz Game", "PLEASE ENTER SAME PASSWORDS.")
         else:
-            messagebox.showinfo("Kaun Banega Crorepati - The Game", "ACCOUNT SUCCESSFULLY CREATED.")
+            messagebox.showinfo("KBC - The Quiz Game", "ACCOUNT SUCCESSFULLY CREATED.")
             if gender.get() == 'MALE':
                 g = 'M'
             elif gender.get() == 'FEMALE':
@@ -1022,25 +1022,25 @@ def displaylifelines(friend1,friend2,friend3,qnumber):
 
 
 def set_optionA(qnumber):
-    response = messagebox.askyesno("Kaun Banega Crorepati - The Game", "Do you want to lock option A ?")
+    response = messagebox.askyesno("KBC - The Quiz Game", "Do you want to lock option A ?")
     if response == 1:
         answer = 'a'
         validateanswer(answer,qnumber)
 
 def set_optionB(qnumber):
-    response = messagebox.askyesno("Kaun Banega Crorepati - The Game", "Do you want to lock option B ?")
+    response = messagebox.askyesno("KBC - The Quiz Game", "Do you want to lock option B ?")
     if response == 1:
         answer = 'b'
         validateanswer(answer, qnumber)
 
 def set_optionC(qnumber):
-    response = messagebox.askyesno("Kaun Banega Crorepati - The Game", "Do you want to lock option C ?")
+    response = messagebox.askyesno("KBC - The Quiz Game", "Do you want to lock option C ?")
     if response == 1:
         answer = 'c'
         validateanswer(answer, qnumber)
 
 def set_optionD(qnumber):
-    response = messagebox.askyesno("Kaun Banega Crorepati - The Game", "Do you want to lock option D ?")
+    response = messagebox.askyesno("KBC - The Quiz Game", "Do you want to lock option D ?")
     if response == 1:
         answer = 'd'
         validateanswer(answer, qnumber)
@@ -1217,7 +1217,7 @@ def validateanswer(answer,qnumber):
 def quitgame():
    global filename, gameframe, iconfile, denomination
    winning=[0]
-   response =  messagebox.askyesno("Kaun Banega Crorepati - The Game","Do you want to quit the game?")
+   response =  messagebox.askyesno("KBC - The Quiz Game","Do you want to quit the game?")
    if response==1:
        if denomination==1250000:
            winning[0]=640000

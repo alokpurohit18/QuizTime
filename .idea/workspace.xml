@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f384ea-1183-44c5-af34-a781392b3fea" name="Default Changelist" comment="" />
+    <list default="true" id="58f384ea-1183-44c5-af34-a781392b3fea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Account Screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Account Screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Checkpoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Create Account 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Create Account 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Developer Info.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Developer Info.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Friends.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Friends.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/High Scores.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/High Scores.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Lifeline Description.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Lifeline Description.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Lifeline Implemented 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Lifeline Implemented 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Lifeline used up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Lifelines.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Lifelines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Login.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Main Menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Main Menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Question.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Question.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Rules.png" beforeDir="false" afterPath="$PROJECT_DIR$/App Screenshots/Rules.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App Screenshots/Winning screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/sourcecode.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/sourcecode.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,22 +190,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1622958203070" />
-    <state width="1509" height="65" key="GridCell.Tab.0.bottom" timestamp="1622958427175">
+    <state width="1509" height="482" key="GridCell.Tab.0.bottom" timestamp="1623065413593">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622958427175" />
-    <state width="1509" height="65" key="GridCell.Tab.0.center" timestamp="1622958427175">
+    <state width="1509" height="482" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623065413593" />
+    <state width="1509" height="482" key="GridCell.Tab.0.center" timestamp="1623065413592">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622958427175" />
-    <state width="1509" height="65" key="GridCell.Tab.0.left" timestamp="1622958427175">
+    <state width="1509" height="482" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623065413592" />
+    <state width="1509" height="482" key="GridCell.Tab.0.left" timestamp="1623065413592">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622958427174" />
-    <state width="1509" height="65" key="GridCell.Tab.0.right" timestamp="1622958427175">
+    <state width="1509" height="482" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623065413592" />
+    <state width="1509" height="482" key="GridCell.Tab.0.right" timestamp="1623065413592">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1509" height="65" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622958427175" />
+    <state width="1509" height="482" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623065413592" />
     <state x="161" y="0" key="SettingsEditor" timestamp="1622911122817">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -194,9 +214,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622957910702" />
-    <state x="401" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1622958306173">
+    <state x="401" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1623063875160">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="401" y="215" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1622958306173" />
+    <state x="401" y="215" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1623063875160" />
   </component>
 </project>
