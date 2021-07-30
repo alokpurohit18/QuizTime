@@ -1,4 +1,4 @@
-# KBC - The Game
+# Quiz Time
 A graphical quiz game for the Windows platform based on the famous reality show.
 
 
