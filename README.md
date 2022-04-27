@@ -1,5 +1,5 @@
 # Quiz Time
-A graphical quiz game for the Windows platform based on the famous reality show.
+A graphical quiz game for the Windows platform based on a famous reality show.
 
 
 ![](Images%20and%20Icons/kbc.png)
